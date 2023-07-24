@@ -1,0 +1,20 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "postUpgradeTasks": {
+    "commands": [
+      "echo `date` > last-updated.txt"
+    ],
+    "fileFilters": [
+      "last-updated.txt"
+    ],
+    "executionMode": "update"
+  },
+  "packageRules": [
+    {
+      "matchPackagePatterns": [
+        "^org.apache.commons"
+      ],
+      "groupName": "Apache Commons"
+    }
+  ]
+}
