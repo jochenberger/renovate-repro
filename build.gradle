@@ -6,4 +6,5 @@ repositories {
 
 dependencies {
     implementation 'org.apache.commons:commons-lang3:3.11'
+    implementation 'org.apache.pdfbox:pdfbox:2.0.28'
 }
